@@ -33,6 +33,7 @@ Using the query provided in schema.sql, create a database in MySQL Workbench. Th
 [inventory-checker.webm](https://github.com/Jasmineleeyt/inventory-checker/assets/140264009/d497a88c-637d-42a1-9556-df07645251c8)
 
 ## Credits
+Starter code from [coding-boot-camp](https://github.com/coding-boot-camp/fantastic-umbrella)
 
 Documentations that helped understand the syntax of the queries and the declaration of the associations:
 
