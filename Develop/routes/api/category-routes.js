@@ -52,7 +52,7 @@ router.put('/:id', async(req, res) => {
       },
     });
     if (!updateCategory[0]) {
-      res.status(404).json({ message: 'Unable to find the category with the id provided!' });
+      res.status(404).json({ message: 'Unable to update the category with the id provided!' });
       return;
     }
     res.status(200).json(updateCategory);
@@ -70,7 +70,7 @@ router.delete('/:id', async (req, res) => {
       },
     });
     if (!deleteCategory) {
-      res.status(404).json({ message: 'Unable to find the category with the id provided!' });
+      res.status(404).json({ message: 'Unable to delete the category with the id provided!' });
       return;
     }
     res.status(200).json(deleteCategory);
